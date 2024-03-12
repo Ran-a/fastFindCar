@@ -1,0 +1,14 @@
+/* pages/stopCar.wxss */
+/**index.wxss**/
+page {
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background-color: rgb(225, 238, 250);
+    /* background-image: url('https://img-blog.csdnimg.cn/db6629ea7925493482add0be5b67b5a1.jpeg'); */
+}
+button{
+    margin-top: 30rpx;
+    
+}

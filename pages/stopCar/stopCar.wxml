@@ -1,0 +1,15 @@
+<!--pages/stopCar.wxml-->
+<view class="container">       
+    <button type="primary" bindtap="chooseStopLocation">选择停车位置</button>
+    <button type="primary" bindtap="openLocation">查看停车位置</button>
+    <button type="primary" bindtap="uploadImg">上传停车图片</button>
+    <view style="text-align: center;">
+        <image wx:if="{{src != null}}"
+               bindtap="preview" 
+               bindlongpress="removeImg" 
+               mode="aspectFit" style="height: 330px; width: 330px;  margin-top: 50rpx;" 
+               src="{{src}}" 
+               data-src="{{src}}"></image>
+    </view>
+    <text wx:if="{{src != null}}" style="margin-left: 280rpx">(长按可删除图片)</text>
+</view>

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+    <view>
+     <text style="font-size: 30px; color: rgb(72, 87, 87);">欢迎使用快寻车！</text>
+    </view>
+    <view class="content">
+      <button type="primary" bindtap="stopCar">我要停车</button>
+      <button type="primary" bindtap="findCar">我要找车</button> 
+    </view>
+ 
+</view>
